@@ -165,7 +165,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background-color: black ;
+    background-color: rgb(26, 24, 24) ;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -269,7 +269,7 @@ section .title::after{
 .services .title::after,
 .teams .title::after{
     background: #111;
-    content: "what i provide";
+  
 }
 .services .serv-content .card{
     width: calc(33% - 20px);
