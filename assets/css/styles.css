@@ -544,3 +544,53 @@ img {
     width: 360px;
   }
 }
+
+
+/* Add these styles to your CSS file */
+
+.experience {
+  background-color: white;
+  padding: 80px 0;
+}
+
+.experience__container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.experience__container div {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.experience__logo {
+  max-width: 100px;
+  margin-bottom: 10px;
+}
+
+.experience__company {
+  font-weight: bold;
+  color: #333333;
+}
+
+.experience__duration,
+.experience__location {
+  margin-top: 5px;
+  color: #666666;
+}
+
+.experience__skills {
+  margin-top: 10px;
+  color: #3498db;
+  font-weight: bold;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2rem;
+  color: #333333;
+  margin-bottom: 40px;
+}
